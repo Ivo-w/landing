@@ -1,7 +1,27 @@
 /*css landing*/
+@font-face{
+  font-family: 'plump';
+  src:  url('../assets/fonts/Plumpfull.ttf');
+}
+@font-face{
+  font-family: 'plat';
+  src:  url('../assets/fonts/PlatNomor.ttf');
+}
 
 body {
 	background-image: url("https://media4.giphy.com/media/Cgr2Ajni6FtMRIljqe/giphy.gif?cid=790b761107221f477149cba6f77eaff2fdade69f14e3e548&rid=giphy.gif&ct=g"); 
     background-position: center 18%; 
     background-size: cover;
+}
+.btnPrincipal{
+	position: absolute;
+	top: 80%;
+	left: 45%;
+}
+.btnStyle{
+	width: 150px;
+	border-radius: 12px;
+}
+.fontLocal{
+	font-family: plat;
 }
